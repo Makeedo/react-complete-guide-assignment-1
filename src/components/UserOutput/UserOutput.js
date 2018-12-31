@@ -5,7 +5,7 @@ const UserOutput = (props) => {
     return(
         <div>
             <p>This is a UserOutput component</p>
-            <p>It holds two paragraphs</p>
+            <p>UserName = {props.userName}</p>
         </div>
     );
 
